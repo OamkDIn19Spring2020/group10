@@ -1,12 +1,14 @@
 body{
     margin: 0px;
-    background-color: papayawhip;
+    background-color: white;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
 }
 .top-banner{
     display: grid;
+    height: 100px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr ;
-    background-image: linear-gradient(pink, peachpuff);
+    grid-template-rows: 2fr ;
+    background-image: linear-gradient( rgb(255, 182, 206), white);
     background-size: cover;
 }
 
@@ -38,7 +40,7 @@ button{
     margin:0px;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: auto;
-    background-color: peachpuff;
+    background-color: rgb(255, 206, 133);
 }
 
 .navbar{
