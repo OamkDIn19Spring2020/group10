@@ -1,0 +1,19 @@
+.schedule-content{
+    grid-column: 1 / 5;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.schedule-content table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.schedule-content table{
+    width: 100%;
+    background-color: lightgray;
+}
+.schedule-content th{
+    width: 20%, 40%, 40%;
+    height: 50px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
