@@ -1,13 +1,5 @@
-<h2><?= $title ?></h2>
-<p>Welcome to OUBusSH</p>
-
-        <div class="schedule-content">
-            <h2>Next arrivals:</h2>
-            <table>
-                <tr>
-                    <th>Bus</th>
-                    <th>Time of arrival</th>
-                    <th>Time until arrival</th>
-                </tr>
-            </table>
-        </div>
+<h2>Welcome to OUBusSH</h2>
+<p>The Oulu University Bus Stop Helper</p>
+	<div class="container">
+            <h2>Select destination:</h2>
+    </div>
