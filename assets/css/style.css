@@ -35,6 +35,10 @@
     border: 2px solid lightblue;
     background-color: lightblue;
 }
+.destination-selector :hover{
+    text-decoration: none;
+    background-color: lightgoldenrodyellow;
+}
 .destination-item{
     background-color: white;
     display: flex;
@@ -42,4 +46,8 @@
     padding: 20px 0;
     align-items: center;
     justify-content: center;
+}
+
+.container h3{
+    color:black;
 }
