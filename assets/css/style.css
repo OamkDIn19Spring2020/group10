@@ -47,7 +47,14 @@
     align-items: center;
     justify-content: center;
 }
+<<<<<<< HEAD
 
+=======
+.destination-selector :hover{
+    text-decoration: none;
+    background-color: lightgoldenrodyellow;
+}
+>>>>>>> 6816b9c00238dfdc607bf4ffba507eaff5f120b0
 .container h3{
     color:black;
 }

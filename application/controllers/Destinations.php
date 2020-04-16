@@ -10,7 +10,10 @@
 			$this->load->view('destinations/index', $data);
 			$this->load->view('templates/footer');
 		}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6816b9c00238dfdc607bf4ffba507eaff5f120b0
 		public function view($slug = NULL){
 			$data['destination'] = $this->destination_model->get_destinations($slug);
 
