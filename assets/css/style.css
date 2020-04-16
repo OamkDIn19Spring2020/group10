@@ -43,3 +43,10 @@
     align-items: center;
     justify-content: center;
 }
+.destination-selector :hover{
+    text-decoration: none;
+    background-color: lightgoldenrodyellow;
+}
+.container h3{
+    color:black;
+}
