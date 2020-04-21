@@ -14,6 +14,7 @@
 		<div id="navbar">
 			<ul class="nav navbar-nav">
 				<li><a href="<?php echo base_url(); ?>">Home</a></li>
+				<li><a href="<?php echo base_url(); ?>map">Guide Map</a></li>
 				<li><a href="<?php echo base_url(); ?>about">About</a></li>
 			</ul>
 		</div>
