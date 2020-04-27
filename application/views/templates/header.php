@@ -7,12 +7,15 @@ session_start()
 		<title>Oulu University Bus Stop Helper</title>
 		<link rel="stylesheet" href="https://bootswatch.com/3/cerulean/bootstrap.min.css">
 		<link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/style.css">
+		<script type="text/javascript">
+			function set_variables()
+			{
+			document.body.style.backgroundColor = localStorage.getItem("bgcolor");
+			};
+		</script>
 	</head>
-<body>
+<body onload="set_variables()">
 
-<?php
-"echo <body style='background-color:".$_SESSION['page_color']."'>";
-?>
 
 <nav class="navbar navbar-inverse">
 	<div class="container">
@@ -38,12 +41,12 @@ function theme_changer()
 	if(document.body.style.backgroundColor === "black")
 	{
 		document.body.style.backgroundColor = "white";
-		<?php $_SESSION['page_color'] = "white";?>;
+		localStorage.setItem("bgcolor", "white");
 	}
 	else
 	{
 		document.body.style.backgroundColor = "black";
-		<?php $_SESSION['page_color'] = "black";?>
+		localStorage.setItem("bgcolor", "black");
 	}
 	
 }
