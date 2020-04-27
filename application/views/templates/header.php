@@ -23,8 +23,8 @@ session_start()
 			<ul class="nav navbar-nav">
 				<li><a href="<?php echo base_url(); ?>">Home</a></li>
 				<li><a href="<?php echo base_url(); ?>about">About</a></li>
-				<button type="button" id="theme_change" class="theme">Theme change</button>
 			</ul>
+			<button type="button" id="theme_change" class="navbar navbar-inverse" style="color:white; border:none; border-height:100%;">Theme change</button>
 		</div>
 	</div>
 </nav>
