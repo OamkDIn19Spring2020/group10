@@ -8,4 +8,12 @@
 				</a>
 			<?php endforeach; ?>
 		</div>
+		<h2>Here are the stops</h2>
+		<div class="destination-selector">
+			<?php foreach($stops as $stop) : ?>
+				<a href="<?php echo site_url('/stops/'.$stop['slug']); ?>">
+				<h4 class="destination-item"><?php echo $stop['stop_name']; ?></h4>
+				</a>
+			<?php endforeach; ?>
+		</div>
 	</div>
