@@ -13,4 +13,13 @@
 			$query = $this->db->get_where('destinations', array('slug' => $slug));
 			return $query->row_array();
 		}
+		public function get_stops($slug = FALSE){
+			if($slug === FALSE){
+				$query = $this->db->get('stops');
+				return $query->result_array();
+			}
+
+			$query = $this->db->get_where('stops', array('slug' => $slug));
+			return $query->row_array();
+		}
 	}
