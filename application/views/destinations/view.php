@@ -1,6 +1,7 @@
 <h2><?php echo $destination['destination_name']; ?></h2>
 <div class="container">
-    <?php echo $destination['busses']; ?>
+
+    <?php echo $destination['busses'];?>
 </div>
 <br>
 <div class="big-button">
